@@ -10,7 +10,7 @@ const App = () => {
   const [fullname, setFullname] = useState({ firstname: '', lastname: '' })
   const [color, setColor] = useState(false)
   const [fontSize, setFontSize] = useState(36)
-  const [numbers, setNumbers] = useState([5, 8, 10, 14, 17, 20, 45])
+  const [numbers, setNumbers] = useState([5, 8, 10, 14, 17, 20, 45, 63, 79, 90])
 
   const filterNumbers = () => {
     const filtered = numbers.filter(number => number % 5 === 0)
