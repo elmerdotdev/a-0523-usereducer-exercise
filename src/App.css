@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.form input {
+  margin-left: .5rem;
+}
+
+.buttons {
+  display: flex;
+  gap: .5rem;
+}
